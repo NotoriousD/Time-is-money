@@ -1,0 +1,35 @@
+body {
+  font-family: "SegoeUI-Light", sans-serif;
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialised;
+  margin: 0; }
+
+.section_container {
+  padding: 0 30px; }
+
+header {
+  background-color: #fff; }
+
+.wrap_mnu {
+  height: 100px;
+  width: 100%; }
+
+.top_img {
+  width: 49%;
+  display: inline-block; }
+
+.top_mnu {
+  width: 49%;
+  display: inline-block; }
+
+.main_mnu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+  .main_mnu li {
+    display: inline-block; }
+
+/*# sourceMappingURL=mail.css.map */

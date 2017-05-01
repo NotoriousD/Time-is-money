@@ -1,0 +1,327 @@
+@import "bourbon/bourbon"
+
+body
+	font-family: "Open Sans", sans-serif
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.6
+	-webkit-font-smoothing: antialised
+	margin: 0
+
+.section_container
+	padding: 0 50px
+	max-width: 1366px
+
+header
+	background-color: #fff
+
+.toggle_mnu
+	font-size: 30px
+	background-color: #fff
+	border: 0
+	color: #484c55
+	display: none
+
+.headhesive
+	position: fixed
+	width: 100%
+	transform: translateY(-100%)
+	-webkit-transition: all .4s
+	-o-transition: all .4s
+	transition: all .4s
+	z-index: 10
+
+.headhesive--stick
+	transform: translateY(0)
+
+.wrap_mnu
+	height: 100px
+	width: 100%
+
+.top_img
+	width: 49%
+	display: inline-block
+	height: 100%
+	line-height: 100px
+
+.top_mnu
+	width: 49%
+	display: inline-block
+	height: 100%
+	vertical-align: top
+
+.main_mnu
+	list-style-type: none
+	margin: 0
+	padding: 0
+	height: 100%
+	display: block
+	li
+		display: inline-block
+		height: 100%
+		line-height: 100px
+		padding: 0 20px	
+		a
+			display: block
+			color: #484c55
+			text-decoration: none
+		&:hover
+			background-color: #f8f9fb
+			border-bottom: 3px solid #49cbcd
+			-webkit-transition: background-color .2s
+			-o-transition: background-color .2s
+			transition: background-color .2s
+			a
+				color: #49cbcd
+
+.container_slider
+	margin-top: 3px
+	position: relative
+
+.owl-carousel
+	.item
+		position: relative
+		.text_slide
+			position: absolute
+			left: 0
+			top: 0
+			width: 100%
+			height: 100%
+			h1
+				font-size: 63px
+				text-align: center
+				color: #fff
+			p
+				font-size: 23px
+				text-align: center
+				color: #fff
+			a
+				display: block
+				font-size: 26px
+				width: 200px
+				height: 60px
+				border: 2px solid #fff
+				border-radius: 7px
+				margin: 0 auto
+				text-align: center
+				line-height: 60px
+				color: #fff
+				text-decoration: none
+
+.next_button,
+.prev_button 
+	color: #49cbcd
+	font-size: 18px
+	position: absolute
+	z-index: 10
+	cursor: pointer
+	top: 50%
+	padding: 7px 15px
+	background-color: rgba(255, 255, 255, 1)
+	border-radius: 50%
+
+.next_button 
+	right: 20px
+
+
+.prev_button 
+	left: 20px
+
+.wrap_container
+	padding: 40px 0
+	h1
+		font-size: 35px
+		text-align: center
+		color: #484c55
+		margin-bottom: 80px
+
+.main_team
+	width: 100%
+	text-align: center
+	margin: 0
+	padding: 0
+
+.team_img
+	width: 200px
+	height: 200px
+	border-radius: 50%
+	background-color: #f8f9fb
+	margin: 0 auto
+	a
+		font-size: 75px
+		display: block
+		height: 100%
+		line-height: 190px
+		text-decoration: none
+		color: #f46d6d
+		font-weight: 800
+		display: none
+	&:hover
+		a
+			display: block
+
+.team_item
+	width: 23%
+	display: inline-block
+	text-align: center
+	article
+		color: #484c55
+		h3
+			margin-bottom: 0
+		p
+			font-size: 15px
+
+.pred_container
+	background-color: #f2f2f2
+
+.pred_main
+	width: 100%
+	margin: 0
+	padding: 0
+	text-align: center
+	list-style-type: none
+
+.pred_block
+	width: 30%
+	display: inline-block
+	background-color: #fff
+	&:nth-child(2)
+		margin-left: 20px
+		margin-right: 20px
+	ul
+		list-style-type: none
+		margin: 0
+		padding: 0
+		text-align: center
+		li
+			border-bottom: 1px solid #ecf0f1
+			border-right: 1px solid #ecf0f1
+			border-left: 1px solid #ecf0f1
+			padding: 10px 0
+		.pred_block_head
+			background-color: #475460
+			font-size: 25px
+			color: #fff
+			padding: 15px 0
+		.hblockcolor
+			color: #e44c41
+		.pred_block_price
+			background-color: #f9f9fc
+			font-size: 18px
+			padding: 15px 0
+		.pred_block_buy
+			padding: 30px 0
+			background-color: #f9f9fc
+			a
+				width: 170px
+				height: 40px
+				border-radius: 2px 3px 3px 2px
+				color: #fff
+				text-decoration: none
+				display: block
+				line-height: 40px
+				margin: 0 auto
+				&:hover
+					color: #f56d6e
+					.pred_block_head
+						color: #f56d6e
+		.green_bg
+			background-color: #48ccce
+		.dark_bg
+			background-color: #788492
+
+.pred_block_buy
+	a
+		&:hover
+			color: #f56d6e
+			.pred_block_head
+				color: #f56d6e
+
+.head_active
+	color: #f56d6e
+
+.footer
+	background-image: url("../../img/contacts.png")
+	h1
+		color: #fff
+		text-align: center
+
+.cont_block	
+	width: 49%
+	display: inline-block
+	h3
+		color: #fff
+	p
+		color: #fff
+		font-size: 15px
+	.soc_block	
+		a
+			display: inline-block
+			width: 42px
+			height: 42px
+			color: #fff
+			border-radius: 50%
+			text-align: center
+			line-height: 42px
+			&:hover
+				-webkit-transition: background-color .4s
+				-o-transition: background-color .4s
+				transition: background-color .4s
+		.facebook
+			background-color: #3b5997
+			&:hover
+				background-color: darken(#3b5997, 15%)
+		.twitter
+			background-color: #3ec2f3
+			&:hover
+				background-color: darken(#3ec2f3, 15%)
+		.google
+			background-color: #e44c41
+			&:hover
+				background-color: darken(#e44c41, 15%)
+		p
+			color: #bface2
+			font-size: 13px
+	input
+		width: 45%
+		border-radius: 7px
+		height: 30px
+		border: 0
+		text-indent: 15px
+	textarea
+		width: 100%
+		margin-top: 20px
+		height: 140px
+		border-radius: 7px
+		text-indent: 15px
+		border: 0
+	label
+		&:nth-child(1)
+			input
+				margin-right: 41px
+	button
+		width: 170px
+		height: 50px
+		border-radius: 2px 3px 3px 2px
+		background-color: #49cbcd
+		float: right
+		border: 0
+		color: #fff
+		font-size: 20px
+		&:hover
+			background-color: darken(#49cbcd, 15%)
+			-webkit-transition: background-color .4s
+			-o-transition: background-color .4s
+			transition: background-color .4s
+
+.main_form
+	width: 80%
+
+
+
+
+
+
+
+
